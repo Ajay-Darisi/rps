@@ -18,6 +18,9 @@
 		0A8F5EF82892D68400425DB3 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F5EF72892D68400425DB3 /* TitleView.swift */; };
 		0A8F5EFA2892DDC100425DB3 /* IconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F5EF92892DDC100425DB3 /* IconsView.swift */; };
 		0A8F5EFC2892E15900425DB3 /* PlayAndRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F5EFB2892E15900425DB3 /* PlayAndRulesView.swift */; };
+		0A8F5F002892EAD500425DB3 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F5EFF2892EAD500425DB3 /* GameView.swift */; };
+		0A8F5F022892EC0B00425DB3 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F5F012892EC0B00425DB3 /* LogoView.swift */; };
+		0A8F5F042892EE6400425DB3 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F5F032892EE6400425DB3 /* BoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		0A8F5EF72892D68400425DB3 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		0A8F5EF92892DDC100425DB3 /* IconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsView.swift; sourceTree = "<group>"; };
 		0A8F5EFB2892E15900425DB3 /* PlayAndRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAndRulesView.swift; sourceTree = "<group>"; };
+		0A8F5EFF2892EAD500425DB3 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		0A8F5F012892EC0B00425DB3 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		0A8F5F032892EE6400425DB3 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +112,6 @@
 				0A8F5ECD2892CFAD00425DB3 /* ContentView.swift */,
 				0A8F5ECF2892CFB000425DB3 /* Assets.xcassets */,
 				0A8F5ED12892CFB000425DB3 /* Preview Content */,
-				0A8F5EF52892D62300425DB3 /* HomeView.swift */,
-				0A8F5EF72892D68400425DB3 /* TitleView.swift */,
-				0A8F5EF92892DDC100425DB3 /* IconsView.swift */,
-				0A8F5EFB2892E15900425DB3 /* PlayAndRulesView.swift */,
 			);
 			path = rps;
 			sourceTree = "<group>";
@@ -117,6 +119,8 @@
 		0A8F5ED12892CFB000425DB3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				0A8F5EFE2892EABE00425DB3 /* GamePage */,
+				0A8F5EFD2892EA5000425DB3 /* HomePage */,
 				0A8F5ED22892CFB000425DB3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -137,6 +141,27 @@
 				0A8F5EE82892CFB000425DB3 /* rpsUITestsLaunchTests.swift */,
 			);
 			path = rpsUITests;
+			sourceTree = "<group>";
+		};
+		0A8F5EFD2892EA5000425DB3 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F5EFB2892E15900425DB3 /* PlayAndRulesView.swift */,
+				0A8F5EF92892DDC100425DB3 /* IconsView.swift */,
+				0A8F5EF72892D68400425DB3 /* TitleView.swift */,
+				0A8F5EF52892D62300425DB3 /* HomeView.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		0A8F5EFE2892EABE00425DB3 /* GamePage */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F5EFF2892EAD500425DB3 /* GameView.swift */,
+				0A8F5F012892EC0B00425DB3 /* LogoView.swift */,
+				0A8F5F032892EE6400425DB3 /* BoardView.swift */,
+			);
+			path = GamePage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +299,10 @@
 				0A8F5EFA2892DDC100425DB3 /* IconsView.swift in Sources */,
 				0A8F5ECC2892CFAD00425DB3 /* rpsApp.swift in Sources */,
 				0A8F5EFC2892E15900425DB3 /* PlayAndRulesView.swift in Sources */,
+				0A8F5F022892EC0B00425DB3 /* LogoView.swift in Sources */,
+				0A8F5F042892EE6400425DB3 /* BoardView.swift in Sources */,
 				0A8F5EF82892D68400425DB3 /* TitleView.swift in Sources */,
+				0A8F5F002892EAD500425DB3 /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

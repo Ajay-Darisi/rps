@@ -13,7 +13,7 @@ struct TitleView: View {
             Image("logo")
                 .resizable()
                 .padding(.leading, 20.0)
-                .frame(width: 175, height: 100)
+                .frame(width: 175, height: 93)
             Spacer()
         }
         .frame(width: 380.0, height: 150.0)

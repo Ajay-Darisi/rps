@@ -15,6 +15,7 @@ struct IconsView: View {
                 Text("Rock")
                     .font(.title3)
                     .fontWeight(.semibold)
+                    .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
             }
             VStack {
@@ -22,6 +23,7 @@ struct IconsView: View {
                 Text("Paper")
                     .font(.title3)
                     .fontWeight(.semibold)
+                    .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
             }
             VStack {
@@ -29,6 +31,7 @@ struct IconsView: View {
                 Text("Scissors")
                     .font(.title3)
                     .fontWeight(.semibold)
+                    .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
             }
         }
