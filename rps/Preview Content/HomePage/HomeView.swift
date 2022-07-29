@@ -9,13 +9,17 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack(spacing: 90.0) {
-            TitleView()
-            IconsView()
-            PlayAndRulesView()
+        NavigationView {
+            VStack(spacing: 90.0) {
+                TitleView()
+                IconsView()
+                PlayAndRulesView()
+            }
+            .frame(maxWidth: .infinity,maxHeight: .infinity)
+            .background(Color.black)
+//            .navigationTitle("Home")
+//            .navigationBarTitleDisplayMode(.inline)
         }
-        .frame(maxWidth: .infinity,maxHeight: .infinity)
-        .background(Color.black)
     }
 }
 

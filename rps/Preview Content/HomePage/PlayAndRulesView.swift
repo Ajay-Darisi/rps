@@ -10,16 +10,18 @@ import SwiftUI
 struct PlayAndRulesView: View {
     var body: some View {
         VStack(spacing: 40.0) {
-            HStack {
-                Image("Play")
-                Text("PLAY")
-                    .font(.title2)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.black)
+            NavigationLink(destination: GameView()) {
+                HStack {
+                    Image("Play")
+                    Text("PLAY")
+                        .font(.title2)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.black)
+                }
+                .frame(width: 125.0, height: 60.0)
+                .background(Color.white)
+                .cornerRadius(/*@START_MENU_TOKEN@*/13.0/*@END_MENU_TOKEN@*/)
             }
-            .frame(width: 125.0, height: 60.0)
-            .background(Color.white)
-            .cornerRadius(/*@START_MENU_TOKEN@*/13.0/*@END_MENU_TOKEN@*/)
             Text("RULES")
                 .fontWeight(.semibold)
                 .foregroundColor(Color.black)
@@ -30,6 +32,7 @@ struct PlayAndRulesView: View {
                 .font(.title3)
         }
         .frame(maxWidth: .infinity)
+        
     }
 }
 

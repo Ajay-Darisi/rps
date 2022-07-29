@@ -9,7 +9,7 @@ import SwiftUI
 
 struct GameView: View {
     var body: some View {
-        VStack(spacing: 100.0) {
+        VStack(spacing: 80.0) {
             LogoView()
             BoardView()
             VStack {
@@ -20,6 +20,7 @@ struct GameView: View {
                 IconsView()
             }
         }
+        .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.black)
     }
