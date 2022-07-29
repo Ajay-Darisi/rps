@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct LogoView: View {
+    @Environment(\.presentationMode) var presentationMode
     var body: some View {
         HStack(alignment: .center) {
             Image("logo")
@@ -15,10 +16,17 @@ struct LogoView: View {
                 .padding(.leading, 20.0)
                 .frame(width: 120.0, height: 60.0)
             Spacer()
-            Image("Home")
-                .resizable()
-                .padding(.trailing,20)
-                .frame(width: 50.0, height: 30.0)
+            ZStack {
+                Image("Home")
+                    .resizable()
+                    .padding(.trailing,20)
+                    .frame(width: 50.0, height: 30.0)
+                Button("Home"){
+                    presentationMode.wrappedValue.dismiss()
+                }
+                .frame(width: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/)
+                .opacity(0.1)
+            }
         }
         .frame(width: 360.0, height: 100.0)
         .overlay(RoundedRectangle(cornerRadius: 20)

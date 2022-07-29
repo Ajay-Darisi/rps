@@ -23,11 +23,13 @@ struct GameView: View {
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.black)
+        .navigationBarHidden(true)
     }
 }
 
 struct GameView_Previews: PreviewProvider {
     static var previews: some View {
         GameView()
+            .navigationBarHidden(true)
     }
 }

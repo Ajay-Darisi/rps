@@ -17,8 +17,7 @@ struct HomeView: View {
             }
             .frame(maxWidth: .infinity,maxHeight: .infinity)
             .background(Color.black)
-//            .navigationTitle("Home")
-//            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(true)
         }
     }
 }
