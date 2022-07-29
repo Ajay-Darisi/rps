@@ -9,9 +9,11 @@ import SwiftUI
 
 struct IconsView: View {
     var body: some View {
-        HStack {
+        HStack(spacing: 25.0) {
             VStack {
                 Image("Rock")
+                    .resizable()
+                    .frame(width: 100.0, height: 100.0)
                 Text("Rock")
                     .font(.title3)
                     .fontWeight(.semibold)
@@ -20,6 +22,8 @@ struct IconsView: View {
             }
             VStack {
                 Image("Paper")
+                    .resizable()
+                    .frame(width: 100.0, height: 100.0)
                 Text("Paper")
                     .font(.title3)
                     .fontWeight(.semibold)
@@ -28,6 +32,8 @@ struct IconsView: View {
             }
             VStack {
                 Image("Scissors")
+                    .resizable()
+                    .frame(width: 100.0, height: 100.0)
                 Text("Scissors")
                     .font(.title3)
                     .fontWeight(.semibold)

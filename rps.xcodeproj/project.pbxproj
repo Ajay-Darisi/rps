@@ -119,9 +119,9 @@
 		0A8F5ED12892CFB000425DB3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				0A8F5ED22892CFB000425DB3 /* Preview Assets.xcassets */,
 				0A8F5EFE2892EABE00425DB3 /* GamePage */,
 				0A8F5EFD2892EA5000425DB3 /* HomePage */,
-				0A8F5ED22892CFB000425DB3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";

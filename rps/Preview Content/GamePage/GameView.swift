@@ -9,8 +9,16 @@ import SwiftUI
 
 struct GameView: View {
     var body: some View {
-        VStack {
-            
+        VStack(spacing: 100.0) {
+            LogoView()
+            BoardView()
+            VStack {
+                Text("Choose any one")
+                    .font(.title3)
+                    .fontWeight(.semibold)
+                    .foregroundColor(Color.white)
+                IconsView()
+            }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.black)

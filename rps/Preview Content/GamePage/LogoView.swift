@@ -20,7 +20,7 @@ struct LogoView: View {
                 .padding(.trailing,20)
                 .frame(width: 50.0, height: 30.0)
         }
-        .frame(width: 380.0, height: 100.0)
+        .frame(width: 360.0, height: 100.0)
         .overlay(RoundedRectangle(cornerRadius: 20)
                         .stroke(Color.white, lineWidth: 4)
                 )
