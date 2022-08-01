@@ -24,7 +24,7 @@ struct LogoView: View {
                 Button("Home"){
                     presentationMode.wrappedValue.dismiss()
                 }
-                .frame(width: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/)
+                .padding()
                 .opacity(0.1)
             }
         }

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct GameView: View {
     var body: some View {
-        VStack(spacing: 80.0) {
+        VStack(spacing: 60.0) {
             LogoView()
             BoardView()
             VStack {

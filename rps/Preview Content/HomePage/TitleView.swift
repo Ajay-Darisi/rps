@@ -16,7 +16,7 @@ struct TitleView: View {
                 .frame(width: 175, height: 93)
             Spacer()
         }
-        .frame(width: 380.0, height: 150.0)
+        .frame(width: 360.0, height: 150.0)
         .overlay(
                     RoundedRectangle(cornerRadius: 20)
                         .stroke(Color.white, lineWidth: 4)
